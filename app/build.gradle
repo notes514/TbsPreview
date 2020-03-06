@@ -35,23 +35,10 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    //rxjava
-    implementation "io.reactivex.rxjava2:rxjava:2.2.12"
-    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
-    //Retrofit(网络请求框架)
-    implementation 'com.squareup.retrofit2:retrofit:2.6.0'
-    //retrofit2 gson
-    implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
-    implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
-    //retrofit2 and rxjava
-    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
-    //Rx生命周期
-    implementation 'com.trello.rxlifecycle3:rxlifecycle-components:3.1.0'
-    //gson
-    implementation 'com.google.code.gson:gson:2.8.5'
-    //OkHttp（网络请求框架）最新版本
-    implementation("com.squareup.okhttp3:okhttp:4.2.1")
-    testImplementation("com.squareup.okhttp3:mockwebserver:4.2.1")
+    //okgo
+    implementation 'com.lzy.net:okgo:3.0.4'
+    implementation 'com.lzy.net:okrx2:2.0.2'
+    implementation 'com.lzy.net:okserver:2.0.5'
     //Butter Knife
     implementation 'com.jakewharton:butterknife:10.0.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:10.0.0'
