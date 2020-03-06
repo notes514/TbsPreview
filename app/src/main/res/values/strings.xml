@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TbsPreview</string>
+    <string name="app_main_btn_load">加载文件（TBS）</string>
+    <string name="app_main_btn_download">下载文件（TBS）</string>
 </resources>
